@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPM タップ測定アプリ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            max-width: 300px;
+            padding: 20px;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        #bpm-display {
+            font-size: 28px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BPM タップ測定アプリ</h1>
+    <button id="tap-button">タップして開始</button>
+    <p id="bpm-display">BPM: -</p>
+    <script src="app.js"></script>
+</body>
+</html>
